@@ -1,0 +1,82 @@
+html{
+    font-family: 'mulich', sans-serif;
+    line-height: 1.5;
+}
+
+body{
+    display: grid;
+    gap: 2em;
+    justify-content: center;
+    background-color: rgb(249, 233, 194);
+    margin: 0;
+}
+
+
+header{
+    display: grid;
+    justify-content: center;
+    background-image: url(../assets/Planten.JPG);
+    border-radius: 0 0 3em 3em;
+    width: 100vw;
+    background-position: center;
+}
+
+nav{
+
+}
+
+main{
+    display: grid;
+    gap: 2em;
+    justify-content: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color: rgb(249, 233, 194);
+    background-color: rgb(60, 89, 62);
+    border-radius: 2em;
+    align-items: center;
+    width: 100vw;
+}
+
+@media (min-width: 750px) {
+    section {
+      width: 750px;
+    }
+}
+
+
+.klaptekst{
+
+}
+
+details{
+    margin-left: 1em;
+}
+
+summary{
+    font-size: 3em;
+}
+
+.biebfoto{
+    width: 10em;
+    height: 14em;
+    border-radius: 2em;
+    border: 5px solid rgb(60, 89, 62);
+    margin-bottom: -6px;
+}
+
+.logo{
+    width: 5em;
+    height: 5em;
+}
+
+footer{
+    display: grid;
+    justify-content: center;
+    background-color: rgb(60, 89, 62);
+    border-radius: 3em 3em 0 0;
+    width: 100vw;
+}
