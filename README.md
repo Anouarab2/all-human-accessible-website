@@ -7,7 +7,7 @@ Wij hebben als opdracht gekregen om van de verschillende websites 1 mooie eindve
 # Impact Report UncInc
 Welkom op mijn Github pagina voor Bieb in Bloei
 ![isolated_tablet_laptop_and_smartphone_composition](https://github.com/user-attachments/assets/efe4770f-5ade-47b8-89c3-373486ad180b)
-(![3DB1B4E3-447C-4CE7-B0F4-EC8E99D18516_1_201_a](https://github.com/user-attachments/assets/169f8db2-2f78-40ae-bd5c-804497668171)
+![3DB1B4E3-447C-4CE7-B0F4-EC8E99D18516_1_201_a](https://github.com/user-attachments/assets/169f8db2-2f78-40ae-bd5c-804497668171)
 ![E0D12086-B378-4524-97B2-9314527A04F0_1_201_a](https://github.com/user-attachments/assets/3470a73e-db8b-44fe-9619-995802165cdc)
 
  
