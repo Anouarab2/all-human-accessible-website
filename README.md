@@ -25,7 +25,7 @@ Welkom op mijn Github pagina voor Bieb in Bloei
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 Dit project omvat een website dat gemaakt is in `VisualCode`.
 deze sprint zin we bezig geweest met accessibility en user experience, de dingen die we geleerd hebben zijn toegepast in de site zoals een alt atttribute voor fotos, en een goede heading structuur.
-Mijn website is [hier](https://anouarab2.github.io/Bieb-in-Bloei/) live te zien
+Mijn website is [hier](https://anouarab2.github.io/all-human-accessible-website/) live te zien
  
 ## 💎 Kenmerken
  
