@@ -15,14 +15,29 @@ body{
 header{
     display: grid;
     justify-content: center;
-    background-image: url(../assets/Planten.JPG);
-    border-radius: 0 0 3em 3em;
+    background-image: url(../assets/pottenfoto.jpg);
+    background-repeat: no-repeat;
     width: 100vw;
     background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    font-size: 10em;
 }
 
 nav{
+    
+}
 
+.paginas{
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    gap: 2em;
+    font-size: 2em;
 }
 
 main{
@@ -41,11 +56,48 @@ section{
     width: 100vw;
 }
 
-@media (min-width: 750px) {
-    section {
-      width: 750px;
-    }
+.beige{
+    background-color: rgb(219, 202, 159);
+    color: rgb(60, 89, 62);
+    transition-duration: 0.7s;
 }
+
+.beige:hover{
+    background-color: rgb(60, 89, 62);
+    color: rgb(219, 202, 159);
+    scale: 1.1;
+}
+
+.oranje{
+    background-color: rgb(255, 154, 65);
+    color: rgb(73, 27, 2);
+    transition-duration: 0.7s;
+}
+
+.oranje:hover{
+    background-color: rgb(73, 27, 2);
+    color: rgb(255, 154, 65);
+    scale: 1.1;
+}
+
+.groen{
+    background-color: rgb(60, 89, 62);
+    color: rgb(219, 202, 159);
+    transition-duration: 0.7s;
+}
+
+.groen:hover{
+    scale: 1.1;
+    background-color: rgb(219, 202, 159);
+    color: rgb(60, 89, 62);
+}
+
+p{
+    
+}
+
+
+
 
 
 .klaptekst{
@@ -76,7 +128,32 @@ summary{
 footer{
     display: grid;
     justify-content: center;
-    background-color: rgb(60, 89, 62);
-    border-radius: 3em 3em 0 0;
+    background-color: rgb(219, 202, 159);
+    /* border-radius: 3em 3em 0 0; */
     width: 100vw;
+    color: rgb(60, 89, 62);
+}
+
+.footertekst{
+    list-style: none;
+}
+
+.footertitle{
+    font-size: larger;
+    font-weight: bold;
+}
+
+li{
+    max-width: 250px;
+}
+
+@media (min-width: 750px) {
+    section {
+      width: 750px;
+    }
+
+footer {
+        display: flex;
+        gap: 6em;
+      }
 }
