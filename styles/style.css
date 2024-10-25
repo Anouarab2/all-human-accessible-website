@@ -16,7 +16,6 @@ body{
     background-size:50em;
 }
 
-
 header{
     display: flex;
     flex-direction: column;
@@ -30,15 +29,14 @@ header{
     color: white;
 }
 
-h1{
-    font-family: "Poppins", sans-serif;
-    font-size: 8em;
-    max-width: 290px;
-}
-
 nav{
     display: flex;
     justify-content: space-between;
+}
+
+.logo{
+    width: 5em;
+    height: 5em;
 }
 
 .paginas{
@@ -46,6 +44,12 @@ nav{
     list-style: none;
     gap: 2em;
     font-size: 1em;
+}
+
+h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 8em;
+    max-width: 290px;
 }
 
 main{
@@ -112,18 +116,6 @@ section{
     color: rgb(60, 89, 62);
 }
 
-p{
-    
-}
-
-
-
-
-
-.klaptekst{
-
-}
-
 details{
     margin-left: 1em;
 }
@@ -145,11 +137,6 @@ summary{
     /* margin-bottom: -6px; */
 }
 
-.logo{
-    width: 5em;
-    height: 5em;
-}
-
 footer{
     display: grid;
     justify-content: space-evenly;
@@ -169,7 +156,6 @@ footer{
     font-weight: bold;
 }
 
-
 @media (min-width: 750px) {
     section {
       width: 750px;
@@ -180,7 +166,7 @@ footer{
         max-width: 750px;
     }
 
-footer {
+    footer {
         display: flex;
         gap: 6em;
       }
